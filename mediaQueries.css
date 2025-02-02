@@ -1,0 +1,12 @@
+@media screen and (max-width: 1200px)
+{
+    #index-nav
+    {
+        display: none;
+    }
+
+    #hamburgerNav
+    {
+        display: flex;
+    }
+}
