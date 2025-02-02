@@ -152,12 +152,140 @@ a:hover
 {
     transform: none;
 }
+
 .hamburgerIcon span:first-child
 {
     opacity: 1;
 }
+
 .hamburgerIcon span:first-child
 {
     transform: none;
 }
 
+/*Section*/
+
+section
+{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+
+}
+
+.sectionContainer #profile
+{
+    display: flex;
+}
+
+/*Profile Section*/
+
+#profile
+{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.sectionPicContainer
+{
+    display: flex;
+    height: 400px;
+    width: 400;
+    margin: auto;
+}
+
+.sectionText
+{
+    align-self: center;
+    text-align: center;
+}
+
+.sectionText p 
+{
+    font-weight: 600;
+}
+
+.sectionTextP1
+{
+    text-align: center;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.title
+{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#socials {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+/*Icons*/
+.icons {
+    cursor: pointer;
+    max-height: 2rem;
+    max-width: 2rem;
+    object-fit: contain; /* Keeps proportions without cropping */
+}
+
+/*Buttons*/
+
+.buttonContainer
+{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn
+{
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.buttonColor1, .buttonColor2
+{
+     border: rgb(53, 53, 53) 0.1rem solid;
+}
+.buttonColor1:hover, .buttonColor2:hover
+{
+     cursor: pointer;
+}
+.buttonColor1, .buttonColor2:hover
+{
+     border: rgb(53, 53, 53);
+     color: white;
+}
+
+.buttonColor1:hover
+{
+    background: rgb(0, 0, 0);
+
+}
+
+.buttonColor2
+{
+    background: none;
+}
+
+.buttonColor2:hover
+{
+    border: rgb(255, 255, 255) 0.1 rem solid;
+}
+
+.buttonContainer 
+{
+    gap: 1rem;
+}
