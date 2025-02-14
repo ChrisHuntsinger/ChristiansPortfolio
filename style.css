@@ -420,3 +420,14 @@ article .icons
     height: 90%
 }
 
+.projectTitle
+{
+    margin: 1rem;
+    color: black
+}
+
+.projectButton
+{
+    color: black;
+    border-color: rgb(163, 163, 163);
+}
