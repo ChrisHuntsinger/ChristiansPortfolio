@@ -1,3 +1,19 @@
+
+
+@media screen and (max-width: 1400px)
+{
+   #profile
+   {
+    height: 83vh;
+    margin-bottom: 6rem;
+   }
+
+   .aboutContainers
+   {
+    flex-wrap: wrap;
+   }
+}
+
 @media screen and (max-width: 1200px)
 {
     #index-nav
@@ -8,5 +24,42 @@
     #hamburgerNav
     {
         display: flex;
+    }
+
+    #experience, .experienceDetailsContainer
+    {
+        margin-top: 2rem;
+    }
+
+    #profile, .sectionContainer
+    {
+        display:block
+    }
+
+    .arrow
+    {
+        display: none;
+    }
+
+    section, .sectionContainer
+    {
+        height: fit-content;
+    }
+
+    .sectionContainer
+    {
+        margin: 0.5%;
+    }
+
+    .sectionPicContainer
+    {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+
+    .aboutContainers
+    {
+        margin-top: 0;
     }
 }
