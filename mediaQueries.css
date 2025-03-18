@@ -1,65 +1,103 @@
-
-
-@media screen and (max-width: 1400px)
-{
-   #profile
-   {
-    height: 83vh;
-    margin-bottom: 6rem;
-   }
-
-   .aboutContainers
-   {
-    flex-wrap: wrap;
-   }
-}
-
-@media screen and (max-width: 1200px)
-{
-    #index-nav
-    {
-        display: none;
+@media screen and (max-width: 1400px) {
+    #profile {
+      height: 83vh;
+      margin-bottom: 6rem;
     }
-
-    #hamburgerNav
-    {
-        display: flex;
+    .aboutContainer {
+      flex-wrap: wrap;
     }
-
-    #experience, .experienceDetailsContainer
-    {
-        margin-top: 2rem;
+    #contact,
+    #projects {
+      height: fit-content;
     }
-
-    #profile, .sectionContainer
-    {
-        display:block
+  }
+  
+  @media screen and (max-width: 1200px) {
+    #index-nav {
+      display: none;
     }
-
-    .arrow
-    {
-        display: none;
+    #hamburgerNav {
+      display: flex;
     }
-
-    section, .sectionContainer
-    {
-        height: fit-content;
+    #experience,
+    .experienceDetailsContainer {
+      margin-top: 2rem;
     }
-
-    .sectionContainer
-    {
-        margin: 0.5%;
+    #profile,
+    .sectionContainer {
+      display: block;
     }
-
-    .sectionPicContainer
-    {
-        width: 275px;
-        height: 275px;
-        margin: 0 auto 2rem;
+    .arrow {
+      display: none;
     }
-
-    .aboutContainers
-    {
-        margin-top: 0;
+    section,
+    .sectionContainer {
+      height: fit-content;
     }
-}
+    section {
+      margin: 0 5%;
+    }
+    .sectionPicContainer {
+      width: 275px;
+      height: 275px;
+      margin: 0 auto 2rem;
+    }
+    .aboutContainer {
+      margin-top: 0;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #contact,
+    footer {
+      height: 40vh;
+    }
+    #profile {
+      height: 83vh;
+      margin-bottom: 0;
+    }
+    article {
+      font-size: 1rem;
+    }
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    .aboutContainers,
+    .contactInfoUpperContainer,
+    .buttonContainer {
+      flex-wrap: wrap;
+    }
+    .contactInfoContainer {
+      margin: 0;
+    }
+    .contactInfoContainer p,
+    .nav-links li a {
+      font-size: 1rem;
+    }
+    .experienceSubTitle {
+      font-size: 1.25rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    .nav-links {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+    .sectionPicContainer {
+      width: auto;
+      height: 46vw;
+      justify-content: center;
+    }
+    .sectionTextP2 {
+      font-size: 1.25rem;
+    }
+    .title {
+      font-size: 2rem;
+    }
+    .textContainer {
+      text-align: justify;
+    }
+  }
